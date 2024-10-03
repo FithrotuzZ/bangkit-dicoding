@@ -37,4 +37,6 @@ Dokumentasi: [Google Collab](https://colab.research.google.com/drive/1885D68323n
 
 ## Streamlit
 
-Dokumentasi: Streamlit
+   ```shell
+   streamlit run dashboard.py
+   ```
