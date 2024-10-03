@@ -41,4 +41,10 @@ Dokumentasi: [Google Collab](https://colab.research.google.com/drive/1885D68323n
    streamlit run dashboard.py
    ```
 
-Dokumentasi: <img src="./dashboard-dokumentasi/ss.png" alt="Streamlit logo"></img>
+Dokumentasi: 
+<img src="./dashboard-dokumentasi/ss1.png"></img>
+<img src="./dashboard-dokumentasi/ss2.png"></img>
+<img src="./dashboard-dokumentasi/ss3.png"></img>
+<img src="./dashboard-dokumentasi/ss4.png"></img>
+<img src="./dashboard-dokumentasi/ss5.png"></img>
+<img src="./dashboard-dokumentasi/ss6.png"></img>
