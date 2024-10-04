@@ -37,12 +37,12 @@ Hanya perlu menjalankan setiap chunks yang ada di link bawah ini:
 Dokumentasi: [Google Collab](https://colab.research.google.com/drive/1885D68323nwe5Rn3eQlP8fVeP7RafC2B?usp=sharing)
 
 ## Streamlit
-Setelah mengaktifkan anaconda dengan nama myenv, masuk ke folder **dashboard** yang berisi 3 file untuk menjalankan command untuk menjalankan dashboard:
+Setelah mengaktifkan environment virtual anaconda dengan nama myenv, arahkan ke path folder **dashboard** yang berisi 3 file untuk menjalankan command untuk menjalankan dashboard:
 
    ```shell
    streamlit run dashboard.py
    ```
-Setelah itu akan diarahkan menuju localhost streamlit yang menampilkan dahsboard yang dibuat
+Kemudian akan diarahkan menuju localhost streamlit yang menampilkan dahsboard yang dibuat.
 
 
 Dokumentasi: 
