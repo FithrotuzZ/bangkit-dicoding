@@ -17,7 +17,7 @@ Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset. Ana
 
 ## Instalasi
 
-1. Clone repository
+1. Clone repository atau download repository ke local
 
    ```shell
    git clone https://github.com/FithrotuzZ/bangkit-dicoding.git
@@ -32,14 +32,18 @@ Proyek ini bertujuan untuk menganalisis data pada E-Commerce Public Dataset. Ana
    ```
 
 ## Google Collab
+Hanya perlu menjalankan setiap chunks yang ada di link bawah ini:
 
 Dokumentasi: [Google Collab](https://colab.research.google.com/drive/1885D68323nwe5Rn3eQlP8fVeP7RafC2B?usp=sharing)
 
 ## Streamlit
+Setelah mengaktifkan anaconda dengan nama myenv, masuk ke folder **dashboard** yang berisi 3 file untuk menjalankan command untuk menjalankan dashboard:
 
    ```shell
    streamlit run dashboard.py
    ```
+Setelah itu akan diarahkan menuju localhost streamlit yang menampilkan dahsboard yang dibuat
+
 
 Dokumentasi: 
 <img src="./dashboard-dokumentasi/ss1.png"></img>
