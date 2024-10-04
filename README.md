@@ -50,5 +50,7 @@ Dokumentasi:
 <img src="./dashboard-dokumentasi/ss2.png"></img>
 <img src="./dashboard-dokumentasi/ss3.png"></img>
 <img src="./dashboard-dokumentasi/ss4.png"></img>
-<img src="./dashboard-dokumentasi/ss5.png"></img>
+<img src="./dashboard-dokumentasi/ss5-1.png"></img>
+<img src="./dashboard-dokumentasi/ss5-2.png"></img>
+<img src="./dashboard-dokumentasi/ss5-3.png"></img>
 <img src="./dashboard-dokumentasi/ss6.png"></img>
