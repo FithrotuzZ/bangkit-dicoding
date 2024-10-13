@@ -5,20 +5,24 @@ import streamlit as st
 from datetime import datetime
 import datetime as dt
 from babel.numbers import format_currency
+import os
 sns.set(style='dark')
 
 # fix file
-uploaded_file = st.file_uploader("Upload a CSV file", type="csv")
+#uploaded_file = st.file_uploader("Upload a CSV file", type="csv")
 
-if uploaded_file is not None:
-    all_data = pd.read_csv(uploaded_file)
-    st.write("File uploaded successfully!")
-    st.write(all_data)
-else:
-    st.error("Please upload the 'all_data.csv' file to proceed.")
+#if uploaded_file is not None:
+#    all_data = pd.read_csv(uploaded_file)
+#    st.write("File uploaded successfully!")
+#    st.write(all_data)
+#else:
+#    st.error("Please upload the 'all_data.csv' file to proceed.")
+
+current_dir = os.path.dirname(__file__)  # Mendapatkan direktori di mana file script saat ini berada
+csv_path = os.path.join(current_dir, "all_data.csv")
 
 # Dataset
-# all_data = pd.read_csv("all_data.csv")
+ all_data = pd.read_csv(csv_path)
 
 datetime_columns = ["order_approved_at", "order_delivered_customer_date"]
 all_data.sort_values(by="order_approved_at", inplace=True)
