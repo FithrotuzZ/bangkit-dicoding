@@ -8,7 +8,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Dataset
-all_data = pd.read_csv("/dashboard/all_data.csv")
+all_data = pd.read_csv("/all_data.csv")
 
 datetime_columns = ["order_approved_at", "order_delivered_customer_date"]
 all_data.sort_values(by="order_approved_at", inplace=True)
