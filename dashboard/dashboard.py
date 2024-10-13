@@ -8,15 +8,17 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # fix file
-try:
-    all_data = pd.read_csv("data/all_data.csv")  # Adjust this path according to the file's location
-    st.write("File loaded successfully!")
+uploaded_file = st.file_uploader("Upload a CSV file", type="csv")
+
+if uploaded_file is not None:
+    all_data = pd.read_csv(uploaded_file)
+    st.write("File uploaded successfully!")
     st.write(all_data)
-except FileNotFoundError:
-    st.error("The file 'all_data.csv' was not found. Please check the file path or upload the file.")
+else:
+    st.error("Please upload the 'all_data.csv' file to proceed.")
 
 # Dataset
-all_data = pd.read_csv("all_data.csv")
+# all_data = pd.read_csv("all_data.csv")
 
 datetime_columns = ["order_approved_at", "order_delivered_customer_date"]
 all_data.sort_values(by="order_approved_at", inplace=True)
