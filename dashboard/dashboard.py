@@ -20,9 +20,10 @@ sns.set(style='dark')
 
 current_dir = os.path.dirname(__file__)  # Mendapatkan direktori di mana file script saat ini berada
 csv_path = os.path.join(current_dir, "all_data.csv")
+print("Looking for the file at:", csv_path)
 
 # Dataset
- all_data = pd.read_csv(csv_path)
+# all_data = pd.read_csv(csv_path)
 
 datetime_columns = ["order_approved_at", "order_delivered_customer_date"]
 all_data.sort_values(by="order_approved_at", inplace=True)
