@@ -5,18 +5,13 @@ import streamlit as st
 from datetime import datetime
 import datetime as dt
 from babel.numbers import format_currency
-import os
 sns.set(style='dark')
 
-#check cwd
-st.write("Current working directory:", os.getcwd())
-
-# Add the correct file path if necessary, based on the current working directory
+# fix file
 try:
-    # Use the correct path or the relative path based on your working directory
-    all_data = pd.read_csv("all_data.csv")
+    all_data = pd.read_csv("data/all_data.csv")  # Adjust this path according to the file's location
     st.write("File loaded successfully!")
-    st.write(all_data)  # Show the data if loaded
+    st.write(all_data)
 except FileNotFoundError:
     st.error("The file 'all_data.csv' was not found. Please check the file path or upload the file.")
 
