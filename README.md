@@ -47,7 +47,7 @@ Kemudian akan diarahkan menuju localhost streamlit yang menampilkan dahsboard ya
 
 ### Run setelah deploy
 Aplikasi streamlit versi deploy dapat diakses di [Streamlit](https://bangkit-dicoding.streamlit.app/)
-Note: Download file all_data.csv, kemudian upload ke streamlit
+/n Note: Download file all_data.csv, kemudian upload ke streamlit
 
 Dokumentasi: 
 <img src="./dashboard-dokumentasi/ss1.png"></img>
