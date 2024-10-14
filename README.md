@@ -45,7 +45,8 @@ Setelah mengaktifkan environment virtual anaconda dengan nama myenv, arahkan ke 
    ```
 Kemudian akan diarahkan menuju localhost streamlit yang menampilkan dahsboard yang dibuat. Sesuaikan dashboard.py sesuai dengan intruksi (comment) yang diberikan
 
-### Run setelah deploy dapat diakses di [Streamlit](https://bangkit-dicoding.streamlit.app/)
+### Run setelah deploy
+Aplikasi streamlit versi deploy dapat diakses di [Streamlit](https://bangkit-dicoding.streamlit.app/)
 Note: Download file all_data.csv, kemudian upload ke streamlit
 
 Dokumentasi: 
