@@ -37,13 +37,16 @@ Hanya perlu menjalankan setiap chunks yang ada di link bawah ini:
 Dokumentasi: [Google Collab](https://colab.research.google.com/drive/1885D68323nwe5Rn3eQlP8fVeP7RafC2B?usp=sharing)
 
 ## Streamlit
+### Run di local
 Setelah mengaktifkan environment virtual anaconda dengan nama myenv, arahkan ke path folder **dashboard** yang berisi 3 file untuk menjalankan command untuk menjalankan dashboard:
 
    ```shell
    streamlit run dashboard.py
    ```
-Kemudian akan diarahkan menuju localhost streamlit yang menampilkan dahsboard yang dibuat.
+Kemudian akan diarahkan menuju localhost streamlit yang menampilkan dahsboard yang dibuat. Sesuaikan dashboard.py sesuai dengan intruksi (comment) yang diberikan
 
+### Run setelah deploy dapat diakses di [Streamlit](https://bangkit-dicoding.streamlit.app/)
+Note: Download file all_data.csv, kemudian upload ke streamlit
 
 Dokumentasi: 
 <img src="./dashboard-dokumentasi/ss1.png"></img>
